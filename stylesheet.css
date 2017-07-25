@@ -1,0 +1,132 @@
+body {
+   margin-top: 100px;
+		margin-right: 40px;
+		margin-bottom: 10px;
+		margin-left: 70px;
+    font-family: 'Arimo', sans-serif; 
+    
+}
+p {
+     right: 60%;
+}
+  
+.menu-bar {
+    position: fixed;
+    top: 40px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+  background-image: url('eggs.jpg'); 
+}
+
+.bars {
+    display: block;
+    width: 30px;
+    height: 3px;    
+    background-color: #010101;
+    box-shadow: 0 5px 0 #010101, 0 10px 0 #010101;
+}
+
+.menu {
+    display: none; 
+    width: 100%;padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    position: fixed;  
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+.about a:hover { text-decoration: none; 
+}
+html {margin: 10em auto; border-box: width 10px;border-box:height 10px
+}
+.login a {
+    position: absolute; right: 30px;
+}
+
+.image{
+height: 400px;
+width: 800px;
+display: inline;
+}
+.container {
+  position: relative;
+
+}
+
+#outerbox {
+overflow: hidden; margin-left: 115px;
+  margin-right: 115px;
+
+}
+
+#sliderbox
+
+{
+position: relative;
+width: 3200px;
+animation: slide 10s infinite;
+}
+
+#sliderbox img
+
+{
+float: left;
+overflow: hidden;
+}
+
+@keyframes slide
+{
+0%
+{
+left: 0px;
+}
+20%
+{
+left: 0px;
+}
+25%
+{
+left: -800px;
+}
+45%
+{
+left: -800px;
+}
+50%
+{
+left: -1600px;
+}
+70%
+{
+left: -1600px;
+}
+75%
+{
+left: -2400px;
+}
+95%
+{
+left: -2400px;
+}
+100%
+{
+left: -3200px;
+}
+}
+
+.div text {
+   margin-left: 30px;  
+}
+
